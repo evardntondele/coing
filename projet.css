@@ -1,0 +1,147 @@
+#barre_div{
+    width:100%; height:500px; border:1px solid blueviolet;background-color:blueviolet;margin: auto;
+}
+#central {
+    position: relative;
+}
+#email {
+    position:absolute;
+    left:85%;
+    color:white;
+}
+#statut{
+    position:absolute;
+    left:80%;
+    color:white;
+}
+#contact{
+    color:white;
+    position:absolute;
+    left:75%
+}
+#fiche{
+    position:absolute;
+    left:70%;
+    color:white;
+}
+#concerne{
+    position:absolute;
+    left:63%;
+    color:white;
+}
+#html{
+    position:absolute;
+    left:58%;
+    color:white;
+}
+#bonjour{
+    position:absolute;
+    left:52%;
+    color:white;
+} 
+#central a {
+    text-decoration:none;
+}
+a:hover{
+	border-bottom:2px solid white;
+}
+footer {
+    width:100%; height:500px; border:1px solid white;background-color:white;margin: auto; box-shadow:20px 20px 50px grey; position: relative;
+}
+.petit_box{
+    width:150px; height:130px; border:1px solid white;box-shadow:10px 10px 20px grey;position:absolute;top:10%;left:50%;
+}
+#div_1{left:50%;}
+#div_1 h2{
+    text-align:center;color: blacks;
+}
+#div_1 h3{
+    text-align:center;font-size:10px;
+}
+/*#rond{width:50px;height:50px;border:1px solid lightblue;background-color:lightblue;border-radius:100px;margin:auto;margin-top:2%;}*/
+#div_2{left:65%;}
+#div_3{left:80%;}
+#div_4{top:55%; left:50%;}
+#div_5{top:55%; left:65%;}
+#div_6{top:55%; left:80%;}
+#div_7{
+    width:350px; height:360px; border:1px solid white;top:10%;left:10%;position:absolute;
+}
+#div_7 h1 {
+    text-align:justify;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+#div_7 h3{
+    color:skyblue;
+    text-align:justify;
+    font-size:18px;
+}
+#design {
+    width:80px; height:40px; background-color:violet;color:white;text-align: center; padding-top:5%; border-top-left-radius:30px;
+    border-bottom-right-radius:30px;border-top-right-radius:30px;
+}
+#booste{
+    width:350px; height:360px; border:1px solid blueviolet;top:7%;left:10%;position: absolute;
+}
+#booste h1,h5 {
+    color:white; text-align:justify;
+}
+#blue{
+    width:100px;height: 30px;border:1px solid blue;background-color:blue;color:white;position: absolute;padding:1%;
+    border-bottom-right-radius:30px;border-top-right-radius:30px;border-top-left-radius:30px;text-align: center;
+}
+#violet{
+    width:150px;height: 30px;border:1px solid violet;background-color:violet;color:white;position: absolute;padding:1%;
+    border-bottom-right-radius:30px;border-top-right-radius:30px;border-top-left-radius:30px;text-align:center;left:35%;
+}
+#im{
+    width:480px; height:360px; border:1px solid blueviolet;top:7%;right:18%;position: absolute;
+}
+/*---partie pour le formulaire html et css ---*/
+#body {background-color:lightseagreen;position: relative;}
+#formulaire{
+    width:500px;height:550px;border:1px solid lightseagreen;background-color:white;position:absolute;left:8%;border-radius:20px;margin-top:2%;
+}
+#ecriture{
+    width:500px;height:550px;border:1px solid lightseagreen;position:absolute;left:56%;margin-top:2%;
+}
+#ecriture #force{
+    color:white;font-size:30px;font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;position:absolute;
+    top:25%;
+}
+#ecriture #merci{
+    color:white;font-size:50px;text-align: justify;font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;position: absolute;
+    top:30%;
+}
+#h1{color:white;font-size:50px;text-align: justify;font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;position: absolute;
+top:50%;
+}
+/*style a l'interieur du formulaire*/
+#inscription{
+    width:450px; height:60px;border-bottom:1px solid lightgrey; margin:auto; font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+}
+.meme{left:55%; position: absolute;}
+td {
+    font-size:25px; font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+#suite{
+    padding:5%;position: relative;
+}
+input[type=text]{
+    width:200px; height:40px;border:2px solid lightgrey;
+}
+input[type=e-mail],input[type=password]{
+    width:450px; height:40px;border:2px solid lightgrey;
+}
+#ins{
+    width:450px; height:40px;border:2px solid lightgrey; position: absolute;top:100%; text-align:center;background-color:lightseagreen;color:white;
+    padding-top:2%;font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+#ins:hover{
+    background-color:white;color:lightseagreen;
+}
+#question{
+    position:absolute;font-size:18px;top:126%;width: 450px;height:auto;border:1px solid white;word-spacing:2px; text-align:justify;
+}
+#question a{position: absolute;font-size:18px;text-decoration:none;color:lightseagreen;left:55%;}
